@@ -206,8 +206,8 @@ with DAG(
     [transform_and_load_vuelos, transform_and_load_aeropuertos] >> end_process
 ```
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](/captures/image.png)
+![alt text](/captures/image-1.png)
 
 Punto 4
 
@@ -343,10 +343,10 @@ Punto 5
 Tipos de campos en las tablas de Hive:
 
 Tabla `aeropuerto_tabla`:
-![alt text](image-2.png)
+![alt text](/captures/image-2.png)
 
 Tabla `aeropuerto_detalles_tabla`:
-![alt text](image-3.png)
+![alt text](/captures/image-3.png)
 
 ### Análisis de Datos
 
@@ -364,8 +364,8 @@ FROM aeropuerto_tabla
 WHERE fecha BETWEEN '2021-12-01' AND '2022-01-31';
 ```
 
-![alt text](image-4.png)
-![alt text](image-14.png)
+![alt text](/captures/image-4.png)
+![alt text](/captures/image-14.png)
 
 Punto 7
 
@@ -379,8 +379,8 @@ WHERE aerolinea_nombre = 'AEROLINEAS ARGENTINAS SA'
   AND fecha BETWEEN '2021-01-01' AND '2022-06-30';
 ```
 
-![alt text](image-6.png)
-![alt text](image-15.png)
+![alt text](/captures/image-6.png)
+![alt text](/captures/image-15.png)
 
 Punto 8
 
@@ -419,8 +419,8 @@ ORDER BY
     vuelos.fecha DESC;
 ```
 
-![alt text](image-5.png)
-![alt text](image-17.png)
+![alt text](/captures/image-5.png)
+![alt text](/captures/image-17.png)
 
 Punto 9
 
@@ -445,8 +445,8 @@ ORDER BY
 LIMIT 10;
 ```
 
-![alt text](image-20.png)
-![alt text](image-22.png)
+![alt text](/captures/image-20.png)
+![alt text](/captures/image-22.png)
 
 Punto 10
 
@@ -474,8 +474,8 @@ ORDER BY
 LIMIT 10;
 ```
 
-![alt text](image-23.png)
-![alt text](image-24.png)
+![alt text](/captures/image-23.png)
+![alt text](/captures/image-24.png)
 
 Punto 11
 
@@ -502,7 +502,7 @@ premise o cloud (Sí aplica)*
 
 Arquitectura Propuesta en Google Cloud Platform (GCP)
 
-![alt text](image-11.png)
+![alt text](/captures/image-11.png)
 
 >Descripción General
 
